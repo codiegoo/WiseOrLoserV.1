@@ -13,7 +13,7 @@ contador = 0
 
 // Despues el simulador da a elegir un tema con una variable que muestra un prompt
 
-let tema = prompt('Elige un tema: \n 1. HTML \n 2. CSS');
+let tema = prompt('Elige un tema escribiendo su numero: \n 1. HTML \n 2. CSS \n 3. arte \n 4. historia \n 5. ciencia \n 6. geografia \n 7. deportes' );
 
 // luego creamos una condicional que decide la ruta a tomar dependiendo la eleccion del usuario, dicha ruta va de la mmano del tema elegido lo cual manda a llamar a dicho tema que esta dentro de una funcion.
 if (tema == 1) {
